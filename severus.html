@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metadati Dublin Core -->
+    <meta name="DC.Title" content="Severus Piton - Docente di Pozioni">
+    <meta name="DC.Creator" content="Biblioteca per Maghi">
+    <meta name="DC.Subject" content="Pozioni, Magia, Serpeverde, Hogwarts">
+    <meta name="DC.Description" content="Pagina informativa su Severus Piton, docente di Pozioni a Hogwarts.">
+    <meta name="DC.Publisher" content="Biblioteca per Maghi">
+    <meta name="DC.Date" content="2025-03-25">
+    <meta name="DC.Format" content="text/html">
+    <meta name="DC.Language" content="it">
+    <title>Insegnanti - Severus Piton</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/button.js"></script>
+    <link rel="stylesheet" href="stili/styles.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="corsidistudio.html">Corsi di Studio</a></li>
+                    <li><a href="insegnanti.html">Insegnanti</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div class="pozionidiv">
+            <h1 class="DC.Title">Severus <br>Piton</h1>
+        </div>
+    </header>
+
+    <div class="breadcrumb-container d-flex justify-content-between align-items-center">
+        <div id="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="insegnanti.html">Insegnanti</a></li>
+                <li class="breadcrumb-item"><a href="severus.html">Severus Piton</a></li>
+            </ol>
+        </div>
+    
+        <!-- Barra di ricerca -->
+        <form class="d-flex search-bar" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cerca in tutto il sito...">
+            <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+
+    <button class="scroll-up-button"><i class="fas fa-chevron-up"></i></button>
+
+    <section id="severus">
+        <div id="imgseverus">
+            <img class="DC.Identifier" src="images/severus.jpg" alt="Severus Piton">
+        </div>
+
+        <div id="severusinfo">
+            <h3>Informazioni Generali</h3>
+            <p><strong>Corso tenuto: </strong><a calss="DC.Subject" href="pozioni.html">Pozioni</a></p>
+            <p><strong>Data di nascita:</strong> <span calss="DC.Date">9 Gennaio 1960</span></p>
+            <p><strong>Ufficio personale:</strong> <span calss="DC.Spatial">Ala Ovest Sotterranei</span></p>
+            <p><strong>Email:</strong> severus.piton@hogwarts.com</p>
+            <p><strong>Orari di Ricevimento:</strong> Recarsi all'ufficio personale del docente, previa prenotazione, preferibilmente mercoledì ore 16-17 ma è possibile concordare altri giorni e orari. Contattare il docente via mail per fissare un appuntamento. </p>
+        </div>
+    
+        <div id="casata">
+            <h3><span class="DC.Subject">Serpeverde</span></h3>
+            <h4>Direttore della Casata</h4>
+            <img src="images/sl.jpg" alt="Serpeverde">
+            <p><i>Per accedere alla sala comune è necessario scendere nei sotterranei.</i></p>
+        </div>
+    </section>  
+
+    <section id="info-piton" class="container-severus">
+
+        <div class="accordion mt-3" id="accordionPiton">
+     
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCurriculum" aria-expanded="true" aria-controls="collapseCurriculum">
+                        <span class="DC.Subject">Curriculum</span>
+                    </button>
+                </h2>
+                <div id="collapseCurriculum" class="accordion-collapse collapse show" data-bs-parent="#accordionPiton">
+                    <div class="accordion-body">
+                        <p><span class="DC.Description">Severus Piton si è laureato a Hogwarts con il massimo dei voti in Pozioni e Difesa Contro le Arti Oscure. È stato un membro di spicco della Casa Serpeverde e ha proseguito i suoi studi approfondendo la creazione di pozioni avanzate e incantesimi innovativi.</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePubblicazioni" aria-expanded="false" aria-controls="collapsePubblicazioni">
+                        <span classe="DC.Subject">Pubblicazioni</span>
+                    </button>
+                </h2>
+                <div id="collapsePubblicazioni" class="accordion-collapse collapse" data-bs-parent="#accordionPiton">
+                    <div class="accordion-body">
+                        <ul class="DC.Description">
+                            <li><strong>"L'arte della Pozione Perfetta"</strong> – Un trattato avanzato sulla preparazione delle pozioni.</li>
+                            <li><strong>"Il Principe Mezzosangue"</strong> – Annotazioni personali e segreti delle pozioni.</li>
+                            <li><strong>"Velenologia Moderna"</strong> – Analisi dei veleni magici e loro antidoti.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRicerca" aria-expanded="false" aria-controls="collapseRicerca">
+                        <span class="DC.Subject">Temi di Ricerca</span>
+                    </button>
+                </h2>
+                <div id="collapseRicerca" class="accordion-collapse collapse" data-bs-parent="#accordionPiton">
+                    <div class="accordion-body">
+                        <ul class="DC.Description">
+                            <li>Sviluppo di nuovi incantesimi difensivi.</li>
+                            <li>Studio delle pozioni di trasformazione avanzata.</li>
+                            <li>Creazione di antidoti contro maledizioni oscure.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <div class="button-container">
+        <div class="line"></div>
+        <a href="insegnanti.html" class="magic-button">Torna agli Insegnanti</a>
+        <div class="line"></div>
+    </div>
+
+    <footer id="footerBase">
+
+        <div id="column">
+            <a href="wpp.html"><h4 id="wpp">Web Project Plan</h4></a>
+
+            <div id="contatti">
+                <a href="mailto:valeria.sensini2@studio.unibo.it"><h4>Contattaci</h4></a>
+                <h6><i class="fas fa-phone-alt"></i> segreteria: 777 777 777 </h6>
+                <h6><i class="fas fa-fax"></i> fax: 777 777 777 </h6>
+            </div>
+
+            <div id="icon">
+                <h4>Seguici</h4>
+                <a href="#" style="margin-right: 2.4vw;"><i class="fab fa-facebook"></i></a>
+                <span></span>
+                <a href="#" style="margin-right: 2.4vw;"><i class="fab fa-instagram"></i></a>
+                <span></span>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div id="diritti">
+            <p class="DC.Rights">© 2025 Biblioteca per Maghi. Tutti i diritti riservati.</p>
+        </div>
+
+    </footer>
+</body>
+</html>

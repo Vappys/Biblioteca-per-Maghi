@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metadati Dublin Core -->
+    <meta name="DC.Title" content="Web Project Plan - Biblioteca per maghi">
+    <meta name="DC.Creator" content="Biblioteca per Maghi">
+    <meta name="DC.Subject" content="Brief, Benchmark, User Research, Struttura, Bibliografia">
+    <meta name="DC.Description" content="Pagina dedicata al progetto di sviluppo">
+    <meta name="DC.Publisher" content="Biblioteca per Maghi">
+    <meta name="DC.Date" content="2025-03-25">
+    <meta name="DC.Format" content="text/html">
+    <meta name="DC.Language" content="it">
+
+    <title>Biblioteca per Maghi - WPP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/button.js"></script>
+    <link rel="stylesheet" href="stili/styles.css">
+    <link rel="stylesheet" href="stili/wpp.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="corsidistudio.html">Corsi di Studio</a></li>
+                    <li><a href="insegnanti.html">Insegnanti</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div class="wppdiv">
+            <h1>Web Project <br>Plan</h1>
+        </div>
+    </header>
+
+    <div class="breadcrumb-container d-flex justify-content-between align-items-center">
+        <div id="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="wpp.html">Web Project Plan</a></li>
+            </ol>
+        </div>
+
+        <p id="recap">In questa pagina di documentazione troverai: l'<a href="#idea">Idea</a>, il <a href="#brief">Brief</a>, l'analisi <a href="#benchmark">Benchmark</a>, la <a href="#struttura">Struttura</a>, il <a href="#layout">Layout</a>, l'<a href="#use">Usabilità</a>, i <a href="#servizi">Servizi</a> e infine <a href="#biblio">Bibliografia e sitografia</a>.</p>
+    </div>
+
+    <button class="scroll-up-button"><i class="fas fa-chevron-up"></i></button>
+
+    <section id="idea" class="section">
+        <h2>1. IDEA</h2>
+            <p>"Biblioteca per maghi" è un portale dedicato all'universo di Harry Potter, con focus sui corsi di studio della scuola di magia di Hogwarts.</p>
+        <div class="grid">
+            <div class="cardwpp">
+                <h3>Contenuto</h3>
+                <p>Il sito raccoglierà descrizioni dettagliate delle materie, docenti, materiali didattici, e approfondimenti tematici basati su libri, film e materiali ufficiali, offrendo un'esperienza interattiva per sentirsi come aspiranti maghi e streghe.</p>
+            </div>
+            <div class="cardwpp">
+                <h3>Caratteristiche</h3>
+                <p>Permetterà agli utenti di accedere a quello che corrisponderebbe nel nostro mondo UniBo a Virtuale, ma senza la necessità di essere parte dell'Università, perchè nel mondo dei maghi il sapere è alla portata di tutti.
+                    Il sito sarà accattivante dal punto di vista grafico, ma pratico e intuitivo.</p>
+            </div>
+            <div class="cardwpp">
+                <h3>Funzionalità</h3>
+                <p>L'Homepage permette all'utente di navigare tra tutti i contenuti in modi differenti, sia tramite link statici che tramite animazioni e 
+                    sliders interattivi per catturare l'attenzione di utenti di tutte le età. Questi link condurranno a pagine di secondo livello quali il Web Project Plan e i due <strong>cataloghi</strong> Corsi di Studio e Insegnanti da cui sarà
+                    possibile accedere agli items relativi ai contenuti dei corsi specifici selezionati nel catalogo e ai docenti.
+                </p>
+            </div>
+            <div class="cardwpp">
+                <h3>Strumenti e Accesso</h3>
+                <p>Tra gli strumenti utilizzati per la realizzazione della piattaforma c'è l'IDE Visual Studio Code per lo sviluppo HTML e CSS, ovviamente GitHub, YouTube per l'inclusione dei video tutorial, Google Maps per la mappa embeddata, Figma per i grafici, Leonardo.io per immagini generate specificatamente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="brief" class="section">
+        <h2>2. BRIEF</h2>
+        <div class="grid">
+            <div class="cardwpp">
+                <h3>Finalità</h3>
+                <p>Biblioteca per Maghi vuole fornire un archivio digitale approfondito sui corsi di Hogwarts, 
+                combinando intrattenimento e apprendimento per i fan di Harry Potter, semplificando l'accesso alle risorse rispetto ai siti eistenti, proponendosi come uno strumento analogo a quelli che siamo 
+                abituati ad utilizzare normalmente messi a disposizione dalle Università e dalle scuole per l'apprendimento.</p>
+            </div>
+            <div class="cardwpp">
+                <h3>Pubblico</h3>
+                <p>Ideale per un pubblico giovanile di studenti in cerca di risorse educative creative, ma adatto ad appassionati di tutte le età del mondo magico che vogliono immedesimarsi in uno 
+                    studente di Hogwarts, essendo un sito pensato con particolare attenzione alle modalità alternative e accessibili di navigazione.</p>
+            </div>
+            <div class="cardwpp">
+                <h3>Accesso</h3>
+                <p>L'accesso ai contenuti del sito è immediato e coinvolgente, grazie a un design "magico" e intuitivo corredato da immagini e illustrazioni accattivanti, e persino video tutorial. Gli utenti
+                    possono facilmente esplorare i cataloghi, anche tramite smartphone poichè l'interfaccia è stata progettata per ottenere un design reattivo che si adatti alle dimensioni dello schermo in uso.
+            </div>
+            <div class="cardwpp">
+                <h3>Contenuti e dati</h3>
+                <p>I Contenuti sono stati estratti dai libri e film di Harry Potter, attingendo dai siti ufficiali per garantire correttezza e dai contributi creativi della community di appassionati per approfondimenti e curiosità. 
+                    La vera novità è il connubio tra un'offerta formativa e un'esperienza multimediale coinvolgente.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="benchmark" class="section">
+        <h2>3. BENCHMARK</h2>
+        <div class="grid">
+            <div class="analisib">
+                <p>L'Analisi è stata particolamente approfondita poichè affiancata ad un attività di formazione di Tirocinio, alla cui fine è stato prodotto il documento allegato.
+                    Inizialmente mi sono concentrata sul sito ufficiale dedicato all'universo di Harry Potter: <a href="https://www.harrypotter.com/" target="_blank">Pottermore - Wizarding World</a>, con storie, quiz e news.
+                    Tra i suoi punti di forza c'è un design immersivo, contenuti originali e la forte connessione al franchise ufficiale, ma la struttura non sempre intuitiva e sono presenti contenuti limitati per gli utenti non registrati.
+                    Poi ho analizzato l'enciclopedia collaborativa del Fandom <a href="https://www.potterpedia.it/" target="_blank">Potterpedia</a>, i suoi punti di forza sono la quantità enorme di 
+                    contenuti con aggiornamenti costanti, ma l'estetica è poco coinvolgente e i contenuti risultano spesso poco accessibili a causa di scelte fallimentari nella progettazione del layout.</p>
+            </div>
+            <div class="documento">
+                <p>Infine, ho analizzato <a href="https://www.potterpedia.it/" target="_blank">Tolkien Gateway</a> per rimanere in tema fantasy guardando ad altre community, l'estetica è molto curata ma ancora una volta poco accessibile.</p>
+
+                <a href="docs/BpM-documento-benchmark.pdf" target="_blank" class="document-link">
+                    <i class="fas fa-file-pdf"></i> <h4>Analisi Benchmark</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="struttura" class="section">
+        <h2>4. STRUTTURA</h2>
+        <div class="flex">
+            <div class="descrizionemappa">
+                <h3>Mappa concettuale</h3>
+                <p>La mappa è stata realizzata rispettando i principi della modellazione concettuale con il diagramma Entità-Relazione: le entità sono rappresentate da rettangoli corredati dagli attributi
+                    identificativi e non, le relazioni da rombi che tengono traccia delle molteciplità dei concetti e le generalizzazioni rappresentate da frecce. Per costruire il diagramma ho utilizzato
+                    un tool messo a disposizione dal mio docente di Basi di Dati - Marco di Felice.</p>
+            </div>
+            <div class="concettuale"></div>
+                <img id="mappaconcettuale" src="images/MappaConcettuale.png" alt="Mappa concettuale">
+            </div>
+        </div>
+        <div class="flex2">
+            <h3>Schema</h3>
+            <div id="schema">
+                <p>Dalla homepage Biblioteca per Maghi è possibile raggiungere, sia tramite header che tramite modalità alternative di navigazione, le pagine al secondo livello del sito:<br>
+
+                    - dalla pagina Corsi di Studio, che funge da Catalogo, è possibile scegliere un corso e giungere alla pagina che consente di visualizzare i dettagli di tale corso.<br>
+                    - dalle pagine dei corsi specifici è possibile visualizzare idettagli del corso ma anche accedere al terzo livello selezionando un argomento di interesse.<br>
+                    - nelle pagine degli argomenti del corso, considerati items, è possibile consultarne i dettagli.<br>
+                    - dalla pagina Insegnanti, che funge da Catalogo, è possibile scegliere un docente e giungere alla pagina che consente di visualizzare i dettagli di tale insegnante.<br>
+                    - nelle pagine degli Insegnanti, considerati items, è possibile consultarne curriculum, pubblicazioni e temi di ricerca.<br>
+                    - nella pagina Web Project Plan è possibile accedere alla pagina che approfondisce il sito Web e i prodotti offerti.<br>
+                    In tutte le pagine sono presenti link che rimandano alla pagina precedente e un breadcrumb per tenere traccia del percorso di navigazione, in particolare la sua natura ipertestuale del sito web è
+                    stata sfruttata a pieno, inserendo link che consentono di raggiungere svariati punti del sito senza seguire il percorso designato per livelli.</p>
+            </div>
+            <div>
+                <img id="alberatura" src="images/alberatura.JPG" alt="Alberatura">
+            </div>
+        </div>
+        <div class="categorie">
+            <h3>Categorie</h3>
+            <p>Nel sito ci sono due tipi di items: i docenti accessibili dal catalogo Insegnanti e gli argomenti dei Corsi di studio accessibili dalla relativa pagina del corso.<br></p>
+                <ul id="categorie">
+                    <li>Ogni <strong><i>Insegnante</i></strong> all'interno di Biblioteca per Maghi possiede queste categorie descrittive:</li>
+                        <ul>
+                            <li>Nome</li>
+                            <li>Corso tenuto</li>
+                            <li>Data di nascita</li>
+                            <li>Ufficio personale</li>
+                            <li>Email</li>
+                            <li>Orari di Ricevimento</li>
+                            <li>Casata di appartenenza ad Hogwarts</li>
+                            <li>Curriculum</li>
+                            <li>Pubblicazioni</li>
+                            <li>Temi di Ricerca</li>
+                        </ul>
+                    <li>Ogni <strong><i>argomento di un Corso di Studio</i></strong> all'interno di Biblioteca per Maghi possiede queste categorie descrittive:</li>
+                        <ul>
+                            <li>Nome</li>
+                            <li>Descrizione</li>
+                            <li>Materiale necessario</li>
+                            <li>Approfondimenti</li>
+                        </ul>
+                </ul>
+        </div>
+    </section>
+
+    <section id="layout" class="section">
+        <h2>5. LAYOUT</h2>
+            <div class="flex2">
+                <h3>Wireframes</h3>
+                <p>L'architettura del sito è gerarchica con l'homepage che permette di accedere ai cataloghi in diversi modi, nelle pagine secondarie la navigazione è accompagnata dai breadcrumb per un facile orientamento.
+                    Inoltre resta sempre disponbile la ricerca generica, anche se in questa sede non funzionante. I Wireframes sono stati disegnati a mano prima dell'implementazione e utlizzati come guida durante
+                    la stesura del codice. Ho utilizzato la 'X' per indicare la presenza di un'immagine e descritto a parole dove possibile gli elementi che avrei incluso. Tutte le pagine hanno lo stesso stile, lo stesso footer
+                    e un header con la stessa struttura navbar-titolo ma riadattato in base alla pagina in cui ci troviamo. Ho mantenuto una distinzione chiara tra le varie sezioni per non confondere l'utente e 
+                    inserito ovunque uno scroll-up-button per tornare agilmente all'inizio della pagina in qualunque momento. I Wireframes prodotti sono 3, uno per ogni livello del sito, a partire dalla home page, un
+                    catalogo e un tipo di item, in questo caso un docente.
+                </p>
+            </div>
+            <div class="flex">
+                <h6><i>index.html</i></h6>
+                <h6><i>insegnanti.html</i></h6>
+                <h6><i>severus.html</i></h6>
+            </div>
+            <div class="flex" id="wireframes">
+                <img src="images/indexWireframe.jpg" alt="Wireframe index.html">
+                <img src="images/insegnantiWireframe.jpg" alt="Wireframe insegnanti.html">
+                <img src="images/docenteWireframe.jpg" alt="Wireframe piton.html">
+            </div>
+    </section>
+
+    <section id="use" class="section">
+        <h2>6. USABILITÀ</h2>
+        <div class="grid">
+            <div class="cardwpp">
+                <h3>Architettura</h3>
+                <p>La priorità è stata la suddivisione chiara in sezioni con percorsi di navigazione intuitivi, soprattutto perchè derivata da una User Research svolta in sede di tirocinio che ha evidenziato
+                    come questi fossero gli aspetti di maggior rilevanza per una biblioteca digitale.
+                </p>
+                <a href="docs/BpM-documento-userresearch.pdf" target="_blank" class="document-link">
+                    <i class="fas fa-file-pdf"></i> <h4>User Research</h4>
+                </a>
+            </div>
+            <div class="cardwpp">
+                <h3>Aspetto e Tipografia</h3>
+                <p>Anche la scelta delle componenti da utilizzare e come utilizzarle è stata guidata dalla ricerca utente svolta, dove emerge chiaramente che elementi come un menu laterale e la ricerca generica 
+                    sono fondamentali per garantire l'esperienza anche ad utenti senza conoscenze pregresse dell'argomento. Quindi anche nella scrittura si è scelto di tenere un tono colloquiale e poco specifico. Le 
+                    animazioni sono state apprezzate durante le interviste, ma solamente come entrypoint poichè nelle pagine dove erano presenti i contenuti distraevano troppo gli utenti, quindi sono state implementate
+                    solo nella home page.
+                </p>
+            </div>
+            <div class="cardwpp">
+                <h3>Colori, icone e font</h3>
+                <p>Ho scelto dei font leggibili con tocchi medievali: il font 'Harry P' è quello originale utilizzato per i titoli di film e libri ufficiali,
+                 e il 'DM Serif Text' in grassetto per i titoli delle sezioni e normale per i paragrafi affiancato al font 'Arial', sans-serif. Le icone sono state utilizzate solamente nel footer e per la lente d'ingrandimento della ricerca generica, prediligendo
+                sempre le immagini poichè maggiormente evocative e coinvolgenti. Lo stile "magico" è stato implementato con palette di colori legate all'universo di Harry Potter come il blu e l'oro, utilizzando le 
+                tecniche di shadow per rendere effetti "brillanti".</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servizi" class="section">
+        <h2>7. SERVIZI</h2>
+        <div class="grid">
+            <div class="cardwpp">
+                <h3>Strumenti di browsing</h3>
+                <ol type="1"> 
+                    <li>Search bar in ogni pagina per accedere ai contenuti del sito in modo diretto;</li>
+                    <li>Breadcrumb nelle pagine di secondo e terzo livello per orientarsi durante la navigazione ed esplicitare la gerarchia;</li>
+                    <li>Metanavigazione nel footer e nell'header per collegarsi alla pagina del Web Project Plan;,</li>
+                    <li>Indici nelle pagine Catalogo;</li>
+                    <li>Cards entrypoint e animazioni nella homepage per reindirizzare l'utente al Corso di interesse;</li>
+                    <li>Linea del tempo per navigare tra i contenuti in base alla data in cui sono avvenute le scoperte;</li>
+                    <li>Mappa embeddata per localizzare la scuola di Hogwarts.</li>
+                    <li>Image Map per reindirizzare a pagine esterne di approfondimento.</li>
+                </ol>
+            </div>
+            <div class="cardwpp">
+                <h3>Strumenti di interazione</h3>
+                <p>Il focus del progetto è stato creare un portale che fosse più facilmente utilizzabile di quelli attualmente disponibili riguardo all'argomento, per cui sono stati impiegati diversi 
+                    strumenti di interazione: bottoni, card, e gli input di testo consentono agli utenti di interagire con il sito in modo intuitivo e dinamico. Sono state utilizzate tabelle e accordion 
+                    per schematizzare alcuni contenuti con elementi più complessi ed effetti sui link e sui button al passaggio del mouse per migliorare l'accessibilità.
+                    Inoltre, è presente un carousel, assieme a delle immagini animate e uno slideshow per attirare l'attenzione dell'utente durante lo scorrimento della home page, poichè durante
+                    la user reasearch si era notato lo scarso coinvolgimento durante la ricerca. Sono stati integrati contenuti multimediali come i video Youtube 
+                    per mostrare tutorial relativi ad alcuni items.
+                </p>
+            </div>
+            <div class="cardwpp">
+                <h3>Miglioramenti</h3>
+                <p>Tuttavia, per migliorare l'esperienza degli utenti sarebbe essenziale collegare i link social ai rispettivi profili per favorire
+                    l'interazione e la condivisione di contenuti, contribuendo a espandere la presenza online della community. Certamente andrebbe ampliata l'offerta di contenuti, inoltre si potrebbe rendere interattiva
+                    la linea del tempo permettendo all'utente di scorrere e muoversi negli anni per visualizzare le maggiori scoperte per ogni annata. L'aggiunta
+                    di una sezione Forum inerente ai contenuti favorirebbe lo scambio di informazioni, permettendo chiarimenti e la nascita di interessanti discussioni.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="biblio" class="section">
+        <h2>8. BIBLIOGRAFIA E SITOGRAFIA</h2>
+        <div class="grid">
+            <div class="cardwpp">
+                <h3>Fonti primarie e secondarie</h3>
+                <p>J.K. Rowling, Serie di Harry Potter e rispettivi film della Warner Bros sulla saga.<br>
+                <a href="https://www.harrypotter.com/" target="_blank">harrypotter.com - Wizarding World</a> sito ufficiale e <a href="https://www.potterpedia.it/" target="_blank">Potterpedia</a>
+                 sito creato dal Fandom.</p>
+            </div>
+            <div class="cardwpp">
+                <h3>Strumenti</h3>
+                <p>Per la creazione della mappa concettuale ho usato Figma, Jder per creare il diagramma ER, Nebo per i Wireframes disegnandoli a mano.<br>
+                Per lo sviluppo ho usato Visual Studio Code, prendendo pezzi di codice da W3Schools e Bootstrap e embeddando contenuti multimediali da Google Mpas e Youtube.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="button-container">
+        <div class="line"></div>
+        <a href="index.html" class="magic-button">Torna alla Home</a>
+        <div class="line"></div>
+    </div>
+
+    <footer id="footerBase">
+
+        <div id="column">
+            <a href="wpp.html"><h4 id="wpp">Web Project Plan</h4></a>
+
+            <div id="contatti">
+                <a href="mailto:valeria.sensini2@studio.unibo.it"><h4>Contattaci</h4></a>
+                <h6><i class="fas fa-phone-alt"></i> segreteria: 777 777 777 </h6>
+                <h6><i class="fas fa-fax"></i> fax: 777 777 777 </h6>
+            </div>
+
+            <div id="icon">
+                <h4>Seguici</h4>
+                <a href="#" style="margin-right: 2.4vw;"><i class="fab fa-facebook"></i></a>
+                <span></span>
+                <a href="#" style="margin-right: 2.4vw;"><i class="fab fa-instagram"></i></a>
+                <span></span>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div id="diritti">
+            <p class="DC.Rights">© 2025 Biblioteca per Maghi. Tutti i diritti riservati.</p>
+        </div>
+
+    </footer>
+</body>
+</html>

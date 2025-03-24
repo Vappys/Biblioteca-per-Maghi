@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metadati Dublin Core -->
+    <meta name="DC.Title" content="Corso di Creature Magiche">
+    <meta name="DC.Creator" content="Biblioteca per Maghi">
+    <meta name="DC.Subject" content="Creature, Animali Fantastici, Hogwarts, Corsi di Studio">
+    <meta name="DC.Description" content="Pagina introduttiva e catalogo delle Creature Magiche">
+    <meta name="DC.Publisher" content="Biblioteca per Maghi">
+    <meta name="DC.Date" content="2025-03-25">
+    <meta name="DC.Format" content="text/html">
+    <meta name="DC.Language" content="it">
+    <title>Corso di Creature Magiche</title>  
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/assets/css/docs.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/button.js"></script>
+    <link rel="stylesheet" href="stili/styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="corsidistudio.html">Corsi di Studio</a></li>
+                    <li><a href="insegnanti.html">Insegnanti</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div class="creaturediv">
+            <h1 class="DC.Title">Creature<br>Magiche</h1>
+        </div>
+    </header>
+
+    <div class="breadcrumb-container d-flex justify-content-between align-items-center">
+        <div id="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="corsidistudio.html">Corsi di Studio</a></li>
+                <li class="breadcrumb-item"><a href="creature.html">Creature Magiche</a></li>
+            </ol>
+        </div>
+    
+        <!-- Barra di ricerca -->
+        <form class="d-flex search-bar" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cerca in tutto il sito...">
+            <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+
+    <button class="scroll-up-button"><i class="fas fa-chevron-up"></i></button>
+
+    <section id="corso-creature">
+        <div id="imglibro">
+            <img src="images/libro-creature.jpg" alt="Copertina libro Creature">
+        </div>
+
+        <div id="descrcorso">
+            <h3>Informazioni Generali</h3>
+            <p><strong>Professore: </strong><a href="#">Rubeus Hagrid</a></p>
+            <p><strong>Aula:</strong> <span class="DC.Spatial">Terreni di Hogwarts, ai confini della Foresta Proibita.</span></p>
+            <p><strong>Indicazioni:</strong> Uscire dal castello e seguire il sentiero che conduce alla capanna del Guardiacaccia.</p>
+            <p><strong>Anni di studio:</strong> <span class="DC.Temporal">Materia facoltativa a partire dal terzo anno, può essere proseguita fino al settimo anno per chi sceglie di approfondire la disciplina.</span></p>
+            <p><strong>Descrizione del corso:</strong> <span class="DC.Description">Introduce gli studenti alle creature fantastiche, per riconoscerle, prendersene cura e gestirle in sicurezza.
+                 Le lezioni prevedono attività pratiche, tra cui nutrire le creature, osservarne il comportamento e apprendere metodi magici per proteggerle o difendersi in caso di necessità.</span></p>
+        </div>
+    
+        <div id="tipoesame">
+            <h3>Tipo di esame</h3>
+            <h4 class="DC.Type">G.U.F.O. (Giudizio Unico per Fattucchieri Ordinari)</h4>
+            <img src="images/gufo.png" alt="Gufo">
+            <p><i>Per continuare a livello avanzato è richiesto un voto di Eccellente.</i></p>
+        </div>
+    </section>    
+
+    <h3 id="argomenti">Argomenti del corso</h3>
+    <section id="elencocreature" class="section">
+        
+        <div class="row" style="min-height: 90vh;">
+            <div class="col-12 col-lg-4 order-lg-1 mb-3 mb-lg-0">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link" href="#item-1">Basilisco</a>
+                  <a class="nav-link" href="#item-2">Acromantula</a>
+                  <a class="nav-link" href="#item-3">Manticora</a>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-12 col-lg-8 order-lg-2">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/Basilisco.webp" class="img-fluid catalogo-img" alt="Basilisco">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="DC.Title">Basilisco</h3>
+                                    <p class="DC.Description">Gigantesco serpente leggendario, chi lo guarda direttamente negli occhi viene pietrificato o ucciso all'istante. Vive in luoghi oscuri e umidi e può vivere per secoli.</p>
+                                    <button class="buttons"><a href="basilisco.html">Vai alla pagina</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-2">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/Acromantula.webp" class="img-fluid catalogo-img" alt="Acromantula">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="DC.Title">Acromantula</h3>
+                                    <p class="DC.Description">Enorme ragno magico con intelligenza avanzata e capacità di comunicare in linguaggio umano. È estremamente pericolosa e si nutre di carne umana.</p>
+                                    <button class="buttons">Vai alla pagina</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-3">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/Manticora.webp" class="img-fluid catalogo-img" alt="Manticora">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="DC.Title">Manticora</h3>
+                                    <p>Ha il corpo di un leone, il volto umanoide e una coda velenosa simile a quella di uno scorpione. Il suo veleno provoca una morte immediata e senza antidoto.</p>
+                                    <button class="buttons">Vai alla pagina</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>   
+
+    <div class="button-container">
+        <div class="line"></div>
+        <a href="corsidistudio.html" class="magic-button">Torna ai Corsi di Studio</a>
+        <div class="line"></div>
+    </div>
+
+    <footer id="footerBase">
+
+        <div id="column">
+            <a href="wpp.html"><h4 id="wpp">Web Project Plan</h4></a>
+
+            <div id="contatti">
+                <a href="mailto:valeria.sensini2@studio.unibo.it"><h4>Contattaci</h4></a>
+                <h6><i class="fas fa-phone-alt"></i> segreteria: 777 777 777 </h6>
+                <h6><i class="fas fa-fax"></i> fax: 777 777 777 </h6>
+            </div>
+
+            <div id="icon">
+                <h4>Seguici</h4>
+                <a href="#" style="margin-right: 2.4vw;"><i class="fab fa-facebook"></i></a>
+                <span></span>
+                <a href="#" style="margin-right: 2.4vw;"><i class="fab fa-instagram"></i></a>
+                <span></span>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div id="diritti">
+            <p class="DC.Rights">© 2025 Biblioteca per Maghi. Tutti i diritti riservati.</p>
+        </div>
+
+    </footer>
+</body>
+</html>

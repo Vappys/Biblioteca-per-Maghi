@@ -1,0 +1,447 @@
+.indexdiv {  /*header*/
+    background-image: url(../images/hogwarts1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Elementi della Home*/
+.intro{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.introh2{
+    margin-top: 3vh;
+}
+
+/*Sliding cards per Tomi consigliati*/
+#book-slider {
+    max-width: 80%;
+    margin: auto;
+}
+
+.swiper-slide {
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /*immagine riempie tutta la card*/
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.swiper-slide img:hover {
+    transform: scale(1.05); /*effetto zoom al passaggio del mouse*/
+}
+
+.custom-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #cd9327;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-arrow::after {
+    font-size: 24px;
+}
+
+.custom-arrow:hover {
+    text-shadow: 0 0 10px #ffaa00;
+}
+
+/*Embedded Map*/
+#mappa-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+}
+
+.mappa {
+    flex: 1;
+    min-width: 300px;
+    height: 400px;
+}
+
+.info {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #1f4068;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h2 {
+    color: #cd9327;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #ffaa00;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.info ol {
+    padding-left: 20px;
+    font-family: 'DM Serif Text', serif;
+}
+
+/*Timeline W3SCHOOL*/
+.timeline {  /*container totale*/
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.timeline::after { /*linea verticale*/
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ffcc00;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    box-shadow: 0 0 10px #ffaa00;
+}
+  
+.container { /*blocchi per testo*/
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit; /*ereditato*/
+    width: 50%;
+}
+
+.container::after { /*pallini*/
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #1f4068;
+    border: 4px solid #ffcc00;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 8px #ffaa00;
+    transform: translateY(20%);
+}
+  
+.left {
+    left: 0;
+    text-align: right;
+    transform: translateX(-50%);
+}
+
+.right {
+    left: 50%;
+    text-align: left;
+    transform: translateX(-50%);
+}
+  
+.left::before { /*frecce*/
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #1f4068;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #1f4068;
+    transform: translateX(-10%);
+}
+
+.right::before { /*frecce*/
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #1f4068;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #1f4068 transparent transparent;
+    transform: translateX(-10%);
+}
+  
+.right::after { 
+    left: -16px; /*fix posizione pallino*/
+}
+  
+.content {
+    padding: 20px 30px;
+    background-color: #1a1a2e;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0 10px #ffaa00;
+}
+  
+.content h2 {
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffaa00;
+}
+
+.content a {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+  
+/*Carousel W3SCHOOL*/
+.ultimiargomenti{
+    margin-bottom: 8vh;
+}
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption a{
+    text-decoration: underline;
+    color: #cd9327;
+}
+
+.carousel img {
+    object-fit: cover;
+    height: 300px;
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.carousel-indicators button.active {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%; 
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #ffcc00;
+    box-shadow: 0 0 15px #ffaa00;
+}
+
+.corsientrypoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 5vh;
+}
+
+.corsidisponibili { /*immagini*/
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.corso-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.corso-caption {
+    margin-top: 10px;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.poz { filter: drop-shadow(0px 0px 15px rgba(0, 255, 127, 0.8)); }
+.creature { filter: drop-shadow(0px 0px 15px rgba(0, 191, 255, 0.8)); }
+.erba { filter: drop-shadow(0px 0px 15px rgba(255, 165, 0, 0.8)); }
+.spells { filter: drop-shadow(0px 0px 15px rgba(205, 50, 197, 0.8)); }
+
+.fluttuazione1 {
+    animation: fluttuazione1 3s ease-in-out infinite;
+}  /*animazione alternata*/
+.fluttuazione2{
+    animation: fluttuazione2 3s ease-in-out infinite;
+}
+
+@keyframes fluttuazione1 {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes fluttuazione2 {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(15px); }
+    100% { transform: translateY(0); }
+}
+
+.insegnantientrypoint { /*section*/
+    text-align: center;
+    color: #9DB4C0;
+    padding: 50px 20px;
+}
+
+.insegnantientrypoint h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/*Profile cards Insegnanti*/
+.profilo-container {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.profilo {
+    background-color: #1f4068;
+    border-radius: 15px;
+    width: 18vw;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profilo:hover {
+    transform: scale(1.05);
+}
+
+/* Stile Immagini */
+.profilo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffaa00;
+}
+
+.profilo .docente {
+    margin-top: 10px;
+}
+
+.profilo h3 {
+    font-size: large;
+    margin: 5px 0;
+    color: white;
+}
+
+.profilo .corso {
+    font-size: medium;
+    font-weight: bold;
+    color: #cd9327;
+}
+
+.profilo p {
+    font-size: medium;
+    color: #ccc;
+}
+
+/* Media query per dispositivi con larghezza massima di 768px */
+@media (max-width: 768px) {
+    
+    .indexdiv h1{
+        font-size: 75px;
+    }
+
+    .indexdiv p{
+        display: none;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .ricerca form {
+        flex-direction: column;
+    }
+    
+    .ricerca input {
+        margin-bottom: 10px;
+    }
+    
+    .ultimiargomenti .carousel-inner img {
+        max-height: 200px;
+    }
+    
+    .corsientrypoint {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1vh;
+    }
+    
+    .corso-container {
+        width: 45%;
+    }
+    
+    .profilo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .profilo {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .mappa iframe {
+        height: auto;
+        width: 75vw;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    #column, #diritti {
+        width: 100%;
+    }
+}

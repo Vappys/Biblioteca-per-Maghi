@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metadati Dublin Core -->
+    <meta name="DC.Title" content="Home Page - Biblioteca per maghi">
+    <meta name="DC.Creator" content="Biblioteca per Maghi">
+    <meta name="DC.Subject" content="Magia, Hogwarts, Corsi di Studio, Insegnanti">
+    <meta name="DC.Description" content="Pagina introduttiva alla Biblioteca">
+    <meta name="DC.Publisher" content="Biblioteca per Maghi">
+    <meta name="DC.Date" content="2025-03-25">
+    <meta name="DC.Format" content="text/html">
+    <meta name="DC.Language" content="it">
+
+    <title>Biblioteca per Maghi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="scripts/button.js"></script>
+    <script src="scripts/swiper.js"></script>
+    <link rel="stylesheet" href="stili/styles.css">
+    <link rel="stylesheet" href="stili/index.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="corsidistudio.html">Corsi di Studio</a></li>
+                    <li><a href="insegnanti.html">Insegnanti</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div class="indexdiv">
+            <h1 class="DC.Title">Biblioteca <br>per Maghi</h1>
+            <p>Scopri la magia dei corsi di Hogwarts!</p>
+        </div>
+    </header>
+
+    <button class="scroll-up-button" ><i class="fas fa-chevron-up"></i></button>
+
+    <section id="intro" class="section">
+        <div class="grid">
+            <div>
+                <div class="timeline">
+                    <div class="container left">
+                      <div class="content">
+                        <h2>1025</h2>
+                        <p>Un uomo muore dopo aver ingerito dell'<a href="#" class="DC.Subject">Aconito</a>, da allora conosciuta come pianta estremamente velenosa.</p>
+                      </div>
+                    </div>
+                    <div class="container right">
+                      <div class="content">
+                        <h2>1268</h2>
+                        <p>Viene utilizzato l'incantesimo <a href="#" class="DC.Subject">Expelliarmus</a> per la prima volta.</p>
+                      </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                          <h2>1549</h2>
+                          <p>Miscelando casualmente Acqua di Luna e Petali di Rosa una donna crea l'<a href="amortentia.html" class="DC.Subject">Amortentia</a>, rubando il cuore di un uomo.</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                          <h2>1786</h2>
+                          <p>Primo avvistamento della <a href="#" class="DC.Subject">Acromantula</a> nel Borneo.</p> 
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div>
+                <h2>Il sapere del mondo magico a portata di clic</h2>
+                <p class="intro DC.Description">Benvenuto/a nella biblioteca digitale per gli studenti di Hogwarts.<br>Che tu sia un mago o una strega gia frequentante, 
+                sia che tu abbia appena ricevuto dal tuo gufo la lettera di convocazione nella scuola, potrai fare affidamento a questo sito 
+                per informarti prima di arrivare al castello e durante le lezioni per recuperare il materiale didattico.<br>
+                Un servizio ricco di contenuti selezionati e semplici da ricercare, al contrario degli scaffali della biblioteca del castello!</p>
+
+                <h2 class="introh2">Cerca tra tutte le risorse disponibili:</h2>
+                <div class="ricerca">
+                    <form class="d-flex search-bar" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Cerca in tutto il sito...">
+                        <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="ultimiargomenti">
+                    <h2 class="introh2">Ultimi argomenti inseriti nell'archivio</h2> 
+                    <div id="argomento" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#argomento" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#argomento" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#argomento" data-bs-slide-to="2"></button>
+                        </div>
+                    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/severuscaru.jpg" class="d-block w-100" alt="Severus Piton">
+                                <div class="carousel-caption">
+                                    <a href="severus.html"><h3 class="DC.Subject">Severus Piton</h3></a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/amor.JPG" class="d-block w-100" alt="Amortentia">
+                                <div class="carousel-caption">
+                                    <a href="amortentia.html"><h3 class="DC.Subject">Amortentia</h3></a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Basiliscocaru.jpg" class="d-block w-100" alt="Basilisco">
+                                <div class="carousel-caption">
+                                    <a href="basilisco.html"><h3 class="DC.Subject">Basilisco</h3></a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <button class="carousel-control-prev" type="button" data-bs-target="#argomento" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#argomento" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div> 
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="text-center mb-4">Esplora i Corsi di Studio</h2>
+    <section class="corsientrypoint">
+        <div class="corso-container">
+            <a href="pozioni.html">
+                <img class="corsidisponibili fluttuazione1 poz" src="images/calderone.png" alt="Calderone">
+                <p class="corso-caption DC.Subject">Pozioni</p>
+            </a>
+        </div>
+        <div class="corso-container">
+            <a href="creature.html">
+                <img class="corsidisponibili fluttuazione2 creature" src="images/grifone.webp" alt="Grifone">
+                <p class="corso-caption DC.Subject">Creature Magiche</p>
+            </a>
+        </div>
+        <div class="corso-container">
+            <a href="erbologia.html">
+                <img class="corsidisponibili fluttuazione1 erba" src="images/madry.webp" alt="Mandragora">
+                <p class="corso-caption DC.Subject">Erbologia</p>
+            </a>
+        </div>
+        <div class="corso-container">
+            <a href="incantesimi.html">
+                <img class="corsidisponibili fluttuazione2 spells" src="images/bacchetta.png" alt="Bacchetta magica">
+                <p class="corso-caption DC.Subject">Incantesimi</p>
+            </a>
+        </div>
+    </section>  
+
+    <section class="insegnantientrypoint">
+        <h2>Conosci gli Insegnanti</h2>
+        <div class="profilo-container">
+            
+            <!-- Severus Piton -->
+            <div class="profilo">
+                <a href="severus.html">
+                <img src="images/severus.jpg" alt="Severus Piton">
+                <div class="docente">
+                    <h3 class="DC.Subject">Severus Piton</h3>
+                    <p class="corso">Pozioni</p>
+                    <p class="DC.Description">Esperto di Pozioni, è noto per il suo atteggiamento severo e il suo talento unico.</p>
+                </div>
+                </a>
+            </div>
+    
+            <!-- Pomona Sprite -->
+            <div class="profilo">
+                <a href="#">
+                <img src="images/pomona.jpg" alt="Pomona Sprite">
+                <div class="docente">
+                    <h3 class="DC.Subject">Pomona Sprite</h3>
+                    <p class="corso">Erbologia</p>
+                    <p class="DC.Description">Amante delle piante magiche, guida gli studenti attraverso il mondo affascinante dell'Erbologia.</p>
+                </div>
+                </a>
+            </div>
+    
+            <!-- Rubeus Hagrid -->
+            <div class="profilo">
+                <a href="#">
+                <img src="images/rubeus.jpg" alt="Rubeus Hagrid">
+                <div class="docente">
+                    <h3 class="DC.Subject">Rubeus Hagrid</h3>
+                    <p class="corso">Cura delle Creature</p>
+                    <p class="DC.Description">Guardiacaccia di Hogwarts, è un amante delle creature magiche, dalle più docili ai draghi più temibili.</p>
+                </div>
+                </a>
+            </div>
+    
+            <!-- Filius Vitious -->
+            <div class="profilo">
+                <a href="#">
+                <img src="images/filius.jpg" alt="Filius Vitious">
+                <div class="docente">
+                    <h3 class="DC.Subject">Filius Vitious</h3>
+                    <p class="corso">Incantesimi</p>
+                    <p class="DC.Description">Un grande mago ed esperto di incantesimi, è noto per la sua passione nell'insegnare la magia agli studenti.</p>
+                </div>
+                </a>
+            </div>
+    
+        </div>
+    </section> 
+
+    <section id="book-slider" class="section">
+        <h2 class="text-center mb-4 DC.Source">Tomi Consigliati</h2>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="pozioni.html"><img src="images/libro-pozioni.jpg" alt="Libro di Pozioni"></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="creature.html"><img src="images/libro-creature.jpg" alt="Libro di Creature Magiche"></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="incantesimi.html"><img src="images/libro-incantesimi.jpg" alt="Libro di Incantesimi"></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="erbologia.html"><img src="images/libro-erbologia.jpg" alt="Libro di Erbologia"></a>
+            </div>
+        </div>
+        <div class="swiper-button-next custom-arrow"></div>
+        <div class="swiper-button-prev custom-arrow"></div>
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <section id="mappa-container">
+        <div class="mappa">
+            <iframe 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                aria-hidden="false" 
+                allowfullscreen 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1648.7595335653266!2d-0.12529384438471833!3d51.532550379822666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761bfa8c541837%3A0xc2579139afeace3e!2sPlatform%209%C2%BE%20at%20King&#39;s%20Cross%20Station!5e0!3m2!1sit!2sit!4v1741714804004!5m2!1sit!2sit">
+            </iframe> 
+        </div>
+        <div class="info">
+            <h2>Come raggiungerci ad Hogwarts</h2>
+            <p calss="DC.Coverage"><strong>Indirizzo:</strong> King's Cross Station, Londra N1 9AL, Regno Unito</p>
+            <p>
+                Per accedere al Binario 9 ¾, segui queste istruzioni:
+                <ol>
+                    <li>Recati alla stazione di King's Cross.</li>
+                    <li>Trova il muro tra il binario 9 e il binario 10.</li>
+                    <li>Corri con decisione verso il muro!</li>
+                    <li>Se sei un vero mago, attraverserai senza problemi e troverai l'Hogwarts Express in attesa.</li>
+                </ol>
+            </p>
+            <p><strong>Nota:</strong> Se sei un Babbano, potresti trovare solo una parete solida!</p>
+        </div>
+    </section>
+    
+    <footer id="footerBase">
+
+        <div id="column">
+            <a href="wpp.html"><h4 id="wpp">Web Project Plan</h4></a>
+
+            <div id="contatti">
+                <a href="mailto:valeria.sensini2@studio.unibo.it"><h4>Contattaci</h4></a>
+                <h6><i class="fas fa-phone-alt"></i> segreteria: 777 777 777 </h6>
+                <h6><i class="fas fa-fax"></i> fax: 777 777 777 </h6>
+            </div>
+
+            <div id="icon">
+                <h4>Seguici</h4>
+                <a href="#" style="margin-right: 2.4vw;"><i class="fab fa-facebook"></i></a>
+                <span></span>
+                <a href="#" style="margin-right: 2.4vw;"><i class="fab fa-instagram"></i></a>
+                <span></span>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div id="diritti">
+            <p class="DC.Rights">© 2025 Biblioteca per Maghi. Tutti i diritti riservati.</p>
+        </div>
+
+    </footer>
+</body>
+</html>
