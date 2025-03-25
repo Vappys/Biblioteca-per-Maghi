@@ -12,8 +12,9 @@
     <meta name="DC.Date" content="2025-03-25">
     <meta name="DC.Format" content="text/html">
     <meta name="DC.Language" content="it">
-
     <title>Biblioteca per Maghi</title>
+
+    <!--Link a librerie per lo stile (CSS,BS,FA) e javascript-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -25,7 +26,7 @@
 <body>
     <header>
         <div>
-            <nav>
+            <nav> <!--Barra di navigazione-->
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="corsidistudio.html">Corsi di Studio</a></li>
@@ -39,8 +40,10 @@
         </div>
     </header>
 
+    <!--Bottone per tornare all'inizio della pagina-->
     <button class="scroll-up-button" ><i class="fas fa-chevron-up"></i></button>
 
+    <!--Sezione con linea del tempo, abstract, ricerca e ultimi argomenti inseriti-->
     <section id="intro" class="section">
         <div class="grid">
             <div>
@@ -130,6 +133,7 @@
         </div>
     </section>
 
+    <!--Cards entrypoint ai corsi di studio con animazioni-->
     <h2 class="text-center mb-4">Esplora i Corsi di Studio</h2>
     <section class="corsientrypoint">
         <div class="corso-container">
@@ -158,6 +162,7 @@
         </div>
     </section>  
 
+    <!--Profile cards dei docenti-->
     <section class="insegnantientrypoint">
         <h2>Conosci gli Insegnanti</h2>
         <div class="profilo-container">
@@ -213,6 +218,7 @@
         </div>
     </section> 
 
+    <!--Slider con le copertine dei libri relative ai corsi-->
     <section id="book-slider" class="section">
         <h2 class="text-center mb-4 DC.Source">Tomi Consigliati</h2>
     <div class="swiper mySwiper">
@@ -236,6 +242,7 @@
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!--Sezione con mappa emdedded da Google Maps e descrizione-->
     <section id="mappa-container">
         <div class="mappa">
             <iframe 
@@ -262,7 +269,8 @@
             <p><strong>Nota:</strong> Se sei un Babbano, potresti trovare solo una parete solida!</p>
         </div>
     </section>
-    
+
+    <!--Footer-->
     <footer id="footerBase">
 
         <div id="column">
