@@ -137,7 +137,7 @@ header > div:last-child p {
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    content: "\f105"; /* Codice dell'icona '>' di FontAwesome */
+    content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: #cd9327; 
@@ -157,7 +157,7 @@ header > div:last-child p {
 }
 
 .search-bar input {
-    border: 2px solid #1f4068; /* Cambia il colore del bordo */
+    border: 2px solid #1f4068;
     border-radius: 5px;
     transition: border-color 0.3s ease-in-out;
 }
